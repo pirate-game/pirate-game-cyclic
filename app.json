@@ -1,0 +1,23 @@
+
+{
+  "name": "The-Pirate-Game",
+  "description": "the pirate game",
+  "website": "https://the-pirate-game.herokuapp.com",
+  "repository": "https://github.com/pirate-game/pirate-game-nodejs",
+  "logo": "http://the-pirate-game.herokuapp.com/logo.png",
+  "success_url": "/",
+  "keywords": [
+    "node",
+    "express",
+    "socket.io",
+    "realtime",
+    "websocket"
+  ],
+  "scripts": {
+  },
+  "addons": [
+  ],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs"
+  }
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>The Pirate Game</title>
+		<link rel="stylesheet" type="text/css" href="css/MainPage.css" />
+		<link rel="stylesheet" type="text/css" href="css/navbar.css" />
+		<link rel="stylesheet" type="text/css" href="css/form.css" />
+		<link rel="icon" href="logo.png" type="image/x-icon" />
+		<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    	</head>
+    	<body>
+		<div id="nav"></div>
+		<script src="navbar.js"></script>
+		<br />
+		<div class="sometext" style="background-color:lightblue;">
+        		<p style="margin-left:4em;text-indent:-4em;">Ya-harr! We here at The Pirate Game be wanting to thank:<br />
+            			<a href="https://pages.github.com/">GitHub Pages</a> for originally hosting our lovely website<br />
+	    			<a href="https://www.heroku.com/home">Heroku</a> for hosting it in all its glory wi' Node.js 'n' things<br />
+            			<a href="https://formsubmit.io/">FormSubmit.io</a> for 'andling our forms<br />
+            			<a href="https://www.tes.com/teaching-resource/the-pirate-game-end-of-term-activity-6258063">paulcollins</a> for providing the idea for the Pirate Game and allowing us to use it under the Tes Classic Free Licence<br />
+            			<a href="https://www.tes.com/teaching-resource/the-pirate-game-square-picker-6437335">htmort</a> for providing the 'Square Picker' and allowing us to use it with attribution under the Creative Commons "Sharealike"<br />
+            		</p>
+			<p style="margin-left:4em;text-indent:-4em;">And also 
+				<a href="http://www.clker.com/">Clker</a>, 
+				<a href="https://www.cleanpng.com/">Cleanpng</a>, 
+				<a href="https://publicdomainvectors.org/">Publicdomainvectors</a> and 
+				<a href="https://pixabay.com/">Pixabay</a> for the clip art etc.<br />
+            			The Pirate image was taken from <a href="https://www.cleanpng.com/png-piracy-cartoon-drawing-clip-art-pirate-722951/">Cleanpng</a><br />
+ 				The Chest image was by <a href="https://pixabay.com/users/OpenClipart-Vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=153593">OpenClipart-Vectors</a> from <a href="https://pixabay.com/vectors/booty-chest-gold-pirate-treasure-153593/">Pixabay</a><br />
+				The Kraken image was by <a href="https://pixabay.com/users/fantasticpicture-1560299/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3189017">Michael Seibt</a> from <a href="https://pixabay.com/illustrations/sea-ocean-nature-sky-ship-octopus-3189017/">Pixabay</a><br />
+				The Bomb image was by <a href="https://pixabay.com/users/OpenClipart-Vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2025548">OpenClipart-Vectors</a> from <a href="https://pixabay.com/vectors/bomb-cartoon-iconic-2025548/">Pixabay</a><br />
+				The Copyright logo was taken from <a href="https://www.cleanpng.com/png-copyright-symbol-copyright-law-of-the-united-state-1052540/">Cleanpng</a><br />
+				The Cutlass image was taken from <a href="https://publicdomainvectors.org/en/free-clipart/Cutlass-cartoon-image/81507.html">Publicdomainvectors</a><br />
+				The Mirror image was taken from <a href="https://www.cleanpng.com/png-mirror-dragon-deviantart-hand-mirror-3520099/">Cleanpng</a><br />
+				The Parrot image was taken from <a href="https://www.cleanpng.com/png-pirate-parrot-royalty-free-cartoon-logo-1252826/">Cleanpng</a><br />
+				The Present image was taken from <a href="https://www.cleanpng.com/png-emoji-gift-emoticon-symbol-sms-present-box-1177524/">Cleanpng</a><br />
+				The Pirate Ship image was taken from <a href="https://www.cleanpng.com/png-ship-piracy-clip-art-pirate-722920/">Cleanpng</a><br />
+				The Shield image was taken from <a href="http://www.clker.com/clipart-magic-shield-no-shadow.html">Clker</a><br />
+				The Swap image was taken from <a href="https://www.cleanpng.com/png-clothing-swap-computer-icons-clip-art-arrow-789742/">Cleanpng</a><br />
+           		</p>
+			<p>
+				If you believe that we are using any of this in error and would like us to change our website - or you have anything else you'd like to speak to us about - please contact us with the form below. You <b>do not</b> need to put your email address it will send fine with a fake one like "fake@fake" and <b>do not</b> send us your email address if you are not completely comfortable with our having it.
+			</p>
+       		</div>
+        	<br />
+        	<div id="theform" class="sometext" style="background-color:pink;">
+			<form id="contactform" action="https://formsubmit.io/send/c0c7255c-0a38-4439-9a85-f5d3efa40665" method="POST">
+				<input name="_redirect" type="hidden" id="name" value="https://the-pirate-game.herokuapp.com/Submitted.html" />
+				<div class="row">
+    					<div class="col-25"><label>What ye be called:</label></div>
+					<div class="col-75"><input name="name" type="text" id="theirname"></div>
+				</div>
+				<div class="row">
+    					<div class="col-25"><label>Email Address:</label></div>
+					<div class="col-75"><input name="email" type="email" id="email"></div>
+				</div>
+				<div class="row">
+    					<div class="col-25"><label>What ye be saying:</label></div>
+					<div class="col-75"><textarea name="comment" id="comment" rows="3"></textarea></div>
+				</div>
+    				<input name="_formsubmit_id" type="text" style="display:none" />
+    				<input value="Submit" type="submit" style="font-family:'Calibri', Fallback, sans-serif;font-weight:bold;font-size:inherit;" />
+				<br />
+			</form>
+		</div>
+	</body>
+</html>
